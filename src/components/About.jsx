@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div id="about">
         <div className='about-image'>
-            <img src={aboutimage}/>
+            <img src={aboutimage} alt="img"/>
         </div>
         <div className="about-text">
             <h1>LEARN MORE ABOUT US</h1>

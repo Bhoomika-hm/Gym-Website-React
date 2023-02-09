@@ -17,20 +17,20 @@ function Navbar(){
     window.addEventListener('scroll',changeBackground);
     return(
         <nav className={nav ? "nav active" : "nav"}>
-            <Link to='#' className="logo">
-                <img src={logo}/>
+            <Link to='main' smooth={true} duration={1000} className="logo">
+                <img src={logo} alt="logo"/>
             </Link>
             <input className="menu-btn" type="checkbox" id="menu-btn"/>
             <label className="menu-icon"for="menu-btn">
                 <span className="nav-icon"></span>
             </label>
             <ul className="menu">
-                <li><Link to='#'>Home</Link></li>
-                <li><Link to='#'>Features</Link></li>
-                <li><Link to='#'>Join us</Link></li>
-                <li><Link to='#'>About</Link></li>
-                <li><Link to='#'>Contact</Link></li>
-                <li><Link to='#'>Review</Link></li>
+                <li><Link to='main' smooth={true} duration={1000}>Home</Link></li>
+                <li><Link to='features' smooth={true} duration={1000}>Features</Link></li>
+                <li><Link to='join' smooth={true} duration={1000}>Join us</Link></li>
+                <li><Link to='about' smooth={true} duration={1000}>About</Link></li>
+                <li><Link to='frm' smooth={true} duration={1000}>Review</Link></li>
+                <li><Link to='foot' smooth={true} duration={1000}>Contact</Link></li>
             </ul>
 
 

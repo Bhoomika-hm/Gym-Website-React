@@ -2,7 +2,7 @@ import Card from "./Card";
 
 function Join(){
     return(
-        <div>
+        <div id="join">
         <h1 className="heading-h1">
             MEMBERSHIP
         </h1>
